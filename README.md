@@ -73,6 +73,11 @@ In this stage, we visualize the dataset and our engineered features to get insig
 #### Model Building [Notebook](https://github.com/kedarbartake98/IMDB_movie_rating_prediction/blob/main/notebooks/Modeling.ipynb)
 We train models on the processed data set to predict a movie's average rating
 
+### Conclusions and Insights:
+- Best XGBoost model achieved **66%** accuracy on the test set and **75%** accuracy (_r2-score_) on the train set. 
+- Therefore, I would focus my efforts on rectifying the features since they might be misleading the models in some way
+- For modeling, I would try ensemble learning (bagging, boosting, stacking) and Artificial Neural Networks.
+
 ### Future Scope
 
 **Engineering more features**: 
