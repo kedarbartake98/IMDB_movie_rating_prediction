@@ -77,19 +77,19 @@ We train models on the processed data set to predict a movie's average rating
 
 **Engineering more features**: 
 
-    - We can use columns like _numVotes_ to incorporate more information into the **Popularity Index** 
+- We can use columns like _numVotes_ to incorporate more information into the **Popularity Index** 
 
-    - **Time series of title ratings** for each person can be used to infer more features like their consistency and reliability of performance
-    
-    - In addition to a person working in a movie, we can establish the popularity of the **character** that they are playing - which might give additional insights on how popular the movie could be.
-    
-    - If we could have the text reviews of the titles, we could use **sentiment analysis** of the reviews as one more feature.
-    
-    - Also, the movie's performance in economic terms (gross profit, etc.) can be an important feature to infer the popularity of its cast.
-    _Details in the Feature Engineering notebook_
-    
+- **Time series of title ratings** for each person can be used to infer more features like their consistency and reliability of performance
+
+- In addition to a person working in a movie, we can establish the popularity of the **character** that they are playing - which might give additional insights on how popular the movie could be.
+
+- If we could have the text reviews of the titles, we could use **sentiment analysis** of the reviews as one more feature.
+
+- Also, the movie's performance in economic terms (gross profit, etc.) can be an important feature to infer the popularity of its cast.
+_Details in the Feature Engineering notebook_
+
 **Use of External Data**:
-    
-    - Events in the actor's lives appearing on the web in news and **social media** can be used to infer the public's opinion on the person(actor/director/writer). This information can further be incorporated into the _Popularity Index_.
-    
-    - Other materials **(books, comics, etc.)** on the characters in the dataset might have **sales data** in the world. The sales on these materials can be associated with the particular character and be used to infer that character's popularity.
+
+- Events in the actor's lives appearing on the web in news and **social media** can be used to infer the public's opinion on the person(actor/director/writer). This information can further be incorporated into the _Popularity Index_.
+
+- Other materials **(books, comics, etc.)** on the characters in the dataset might have **sales data** in the world. The sales on these materials can be associated with the particular character and be used to infer that character's popularity.
